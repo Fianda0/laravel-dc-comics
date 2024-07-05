@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-12">
 
-                <form method="POST" action="">
+                <form method="POST" action="{{ route('comics.store') }}">
                     @csrf
                     <div class="mb-3">
                         <label class="form-label">Titolo</label>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Artista</label>
-                        <input type="number" min="0" max="10" class="form-control" name="artist" required>
+                        <input type="text" class="form-control" name="artist" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
