@@ -27,7 +27,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Prezzo</label>
-                        <input type="number" min="0.99" max="999.99" class="form-control" name="price" required>
+                        <input type="number" class="form-control" name="price" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Serie</label>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Data di uscita</label>
-                        <input type="number" min="1980" max="2024" class="form-control" name="sale_date" required>
+                        <input type="date" class="form-control" name="sale_date" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Tipo</label>
